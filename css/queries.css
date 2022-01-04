@@ -162,6 +162,7 @@
 
   .grid--2-cols {
     grid-template-columns: 1fr;
+    column-gap: 0;
   }
 
   .subheading {
@@ -176,6 +177,7 @@
   .about-me {
     border-top: 2px solid rgba(151, 151, 151, 0.15);
 
+    justify-content: center;
     justify-items: center;
     margin-right: 0;
     max-width: 100%;
@@ -202,7 +204,7 @@
   }
 
   .contact {
-    padding-top: 24rem;
+    padding-top: 32rem;
   }
 }
 
@@ -223,6 +225,34 @@
 @media (max-width: 34em) {
   html {
     font-size: 30%;
+  }
+
+  .grid--3-cols {
+    column-gap: 1.6rem;
+  }
+
+  .about-text-box {
+    border-top: none;
+    align-items: center;
+    width: 60rem;
+  }
+  .interested {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+/* ********************************* */
+/* BELOW 400px (Small) */
+/* ********************************* */
+
+@media (max-width: 25em) {
+  html {
+    font-size: 22%;
+  }
+
+  .btn--go-to {
+    width: 24rem;
   }
 }
 
@@ -258,5 +288,11 @@
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
     margin-right: 0;
     margin-bottom: 4.8rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .no-flexbox-gap .grid--3-cols:not(:last-child) {
+    margin-right: 1.6rem;
   }
 }
