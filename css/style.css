@@ -129,7 +129,9 @@
 
 .section-about-me {
   padding-top: 9.6rem;
+  margin-bottom: 9.6rem;
 }
+
 .about-me {
   height: 60rem;
   max-width: 80%;
@@ -156,4 +158,20 @@
 .about-me-description {
   font-family: "Public Sans", serif;
   font-size: 1.6rem;
+}
+
+/* ******************** */
+/* Contact Section */
+/* ******************** */
+
+.section-contact {
+  padding-top: 9.6rem;
+}
+
+.section-separation {
+  border-top: 2px solid rgba(151, 151, 151, 0.15);
+}
+
+.btn--contact {
+  justify-self: right;
 }
