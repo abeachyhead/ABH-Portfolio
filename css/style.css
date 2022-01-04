@@ -1,0 +1,159 @@
+/* ******************** */
+/* Header */
+/* ******************** */
+
+.header {
+  height: 15rem;
+  padding: 0 16.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 3.2rem;
+}
+
+/* ******************** */
+/* Navigation */
+/* ******************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #33323d;
+
+  font-family: "Public Sans", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #5fb4a2;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  background-color: #203a4c;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #5fb4a2;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* Sticky navigation */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
+/* ******************** */
+/* Hero Section */
+/* ******************** */
+
+.section-hero {
+  background-color: #f2f2f2;
+  margin-bottom: 9.6rem;
+
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text-box {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-right: 0.5rem;
+  height: 30%;
+  width: 25%;
+
+  position: absolute;
+  bottom: 6.2rem;
+}
+
+/* ******************** */
+/* About Me Section */
+/* ******************** */
+
+.section-about-me {
+  padding-top: 9.6rem;
+}
+.about-me {
+  height: 60rem;
+  max-width: 80%;
+}
+
+.about-img-box {
+  background-image: url("../img/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-text-box {
+  border-top: 2px solid rgba(151, 151, 151, 0.15);
+  border-bottom: 2px solid rgba(151, 151, 151, 0.15);
+
+  padding: 4.8rem 0 4.8rem 0;
+  width: 45rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-me-description {
+  font-family: "Public Sans", serif;
+  font-size: 1.6rem;
+}
