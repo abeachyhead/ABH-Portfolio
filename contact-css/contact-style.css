@@ -1,0 +1,92 @@
+/* ******************** */
+/* GENERAL */
+/* ******************** */
+
+.section {
+  border-top: 2px solid rgba(151, 151, 151, 0.15);
+  padding-top: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+/* ******************** */
+/* GET IN TOUCH SECTION */
+/* ******************** */
+
+.get-in-touch-description {
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.contact-link:link,
+.contact-link:visited {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #33323d;
+  transition: all 0.3s;
+}
+
+.contact-link:hover,
+.contact-link:active {
+  color: #5fb4a2;
+}
+
+/* ******************** */
+/* CONTACT ME SECTION */
+/* ******************** */
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.cta-form label {
+  font-family: "Public Sans", serif;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.cta-form input,
+.cta-form select,
+.cta-form textarea {
+  width: 100%;
+  height: 4.8rem;
+  padding-top: 1.6rem;
+  padding-bottom: 0.9rem;
+  padding-left: 1.6rem;
+
+  font-size: 1.3rem;
+
+  font-family: "Public Sans", serif;
+  border: none;
+  background-color: rgba(151, 151, 151, 0.1);
+}
+
+.cta-form textarea {
+  height: 50% !important;
+}
+
+.cta-form input::placeholder,
+.cta-form textarea::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  border: 2px solid #5fb4a2;
+}
+
+/* ******************** */
+/* FOOTER */
+/* ******************** */
+
+.footer {
+  margin-top: 9.6rem;
+}

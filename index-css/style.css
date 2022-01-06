@@ -155,7 +155,7 @@
   justify-content: space-between;
 }
 
-.about-me-description {
+.description {
   font-family: "Public Sans", serif;
   font-size: 1.6rem;
 }
@@ -182,6 +182,7 @@
 /* ******************** */
 .footer {
   height: 8rem;
+  width: 100%;
   padding: 0 16.5rem;
 
   background-color: #203a4c;

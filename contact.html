@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Portfolio for Amy Beachy Head. Get to know Amy and see a couple of her projects."
+      content="Portfolio for Amy Beachy Head. Contact Amy to work together"
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="index-css/general.css" />
     <link rel="stylesheet" href="index-css/style.css" />
     <link rel="stylesheet" href="index-css/queries.css" />
+    <link rel="stylesheet" href="contact-css/contact-style.css" />
 
     <script
       type="module"
@@ -43,11 +44,11 @@
 
     <script defer src="index-js/script.js"></script>
 
-    <title>Amy Beachy Head &mdash; Portfolio</title>
+    <title>Amy Beachy Head &mdash; Contact Me</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
+      <a href="index.html">
         <img src="img/logo.svg" alt="shapes" class="logo" />
       </a>
       <nav class="main-nav">
@@ -66,80 +67,93 @@
       </button>
     </header>
 
-    <main>
-      <section class="section-hero">
-        <div class="container">
-          <div class="hero">
-            <div class="hero-img-box">
-              <img
-                src="img/hero-img.jpg"
-                class="hero-img"
-                alt="Image of website design"
-              />
-            </div>
+    <section class="section-get-in-touch">
+      <div class="container">
+        <div class="section grid grid--2-cols">
+          <h1 class="heading-primary title-cta">Get in touch</h1>
 
-            <div class="hero-text-box">
-              <h1 class="heading-primary">
-                Hey, I'm Amy Beachy Head and I love building beautiful websites
-              </h1>
-
-              <a href="#about" class="btn btn--fill btn--about-me">About me </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-about-me" id="about">
-        <div class="container">
-          <div class="about-me grid grid--2-cols">
-            <div
-              class="about-img-box"
-              role="img"
-              aria-label="picture of Amy Beachy Head"
-            ></div>
-
-            <div class="about-text-box">
-              <p class="subheading">About Me</p>
-
-              <p class="about-me-description description">
-                Sport enthusiast with a creative side turned software geek! I
-                enjoy building beautiful, functional websites from scratch. My
-                focus is on writing clean and accessible code, regardless of the
-                framework or language. I like to build frontend projects with
-                HTML, CSS, Sass, React & JS. I am familiar with Adobe
-                Illustrator and Photoshop and love creating my own designs and
-                artworks with these tools. I love learning, solving problems,
-                painting, drawing and being outdoors in nature in my free time.
-                I am based in Cape Town, but am open to remote work. I’d love
-                you to take a look at my portfolio.
-              </p>
-
-              <a href="#" class="btn btn--outline btn--go-to"
-                >Go to portfolio
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-contact">
-        <div class="container">
-          <div class="contact grid grid--3-cols">
-            <p class="subheading interested">
-              Interested in doing a project together?
+          <div class="contact-text-box">
+            <p class="get-in-touch-description description">
+              I’d love to hear about what you’re working on and how I could
+              help. I’m currently looking for a new role and am open to a wide
+              range of opportunities. My preference would be to find a position
+              in a company in Cape Town. But I’m also happy to hear about
+              opportunites that don’t fit that description. I’m a hard-working
+              and positive person who will always approach each task with a
+              sense of purpose and attention to detail. Please do feel free to
+              check out my online profiles below and get in touch using the
+              form.
             </p>
-            <div class="section-separation"></div>
-            <a href="contact.html" class="btn btn--outline btn--contact"
-              >Contact me</a
-            >
+
+            <ul class="social-links">
+              <li>
+                <a class="contact-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-github"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="contact-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+
+    <section class="section-contact-me">
+      <div class="container">
+        <div class="section grid grid--2-cols">
+          <h1 class="heading-primary title-cta">Contact Me</h1>
+
+          <div class="cta">
+            <form class="cta-form" name="contact-me" netlify>
+              <div>
+                <label for="full-name">Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="Jane Appleseed"
+                  name="full-name"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="email@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="message">
+                <label for="messsage">Message</label>
+                <textarea
+                  id="message"
+                  type="text"
+                  placeholder="How can I help?"
+                  name="message"
+                  rows="5"
+                  cols="33"
+                  required
+                ></textarea>
+              </div>
+
+              <a href="#" class="btn btn--fill">Send Message</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="grid grid--footer">
-        <a href="#">
+        <a href="index.html">
           <img src="img/logo-footer.svg" alt="shapes" class="logo" />
         </a>
 
