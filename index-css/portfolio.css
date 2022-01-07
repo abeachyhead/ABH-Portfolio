@@ -1,0 +1,28 @@
+/* ******************** */
+/* Section Portfolio */
+/* ******************** */
+
+.section-portfolio {
+  padding: 9.6rem 0;
+}
+
+.heading-portfolio {
+  font-size: 4rem;
+}
+
+.portfolio-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.portfolio-img-box {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-img {
+  width: 100%;
+}

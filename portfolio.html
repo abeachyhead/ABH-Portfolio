@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Portfolio for Amy Beachy Head. Get to know Amy and see a couple of her projects."
+      content="Portfolio for Amy Beachy Head. Take a look at some of Amy's projects"
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="index-css/general.css" />
     <link rel="stylesheet" href="index-css/style.css" />
     <link rel="stylesheet" href="index-css/queries.css" />
+    <link rel="stylesheet" href="index-css/portfolio.css" />
 
     <script
       type="module"
@@ -42,13 +43,12 @@
     ></script>
 
     <script defer src="js/script.js"></script>
-    <script defer src="js/sticky-nav.js"></script>
 
-    <title>Amy Beachy Head &mdash; Home</title>
+    <title>Amy Beachy Head &mdash; Portfolio</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
+      <a href="index.html">
         <img src="img/logo.svg" alt="shapes" class="logo" />
       </a>
       <nav class="main-nav">
@@ -67,80 +67,73 @@
       </button>
     </header>
 
-    <main>
-      <section class="section-hero">
-        <div class="container">
-          <div class="hero">
-            <div class="hero-img-box">
-              <img
-                src="img/hero-img.jpg"
-                class="hero-img"
-                alt="Image of website design"
-              />
-            </div>
+    <section class="section-portfolio" id="portfolio">
+      <div class="container grid grid--2-cols grid--center-v">
+        <!-- PORTFOLIO 1 -->
 
-            <div class="hero-text-box">
-              <h1 class="heading-primary">
-                Hey, I'm Amy Beachy Head and I love building beautiful websites
-              </h1>
-
-              <a href="#about" class="btn btn--fill btn--about-me">About me </a>
-            </div>
-          </div>
+        <div class="portfolio-img-box">
+          <img
+            src="img/omnifood.svg"
+            alt="omnifood website screen"
+            class="portfolio-img"
+          />
         </div>
-      </section>
-
-      <section class="section-about-me" id="about">
-        <div class="container">
-          <div class="about-me grid grid--2-cols">
-            <div
-              class="about-img-box"
-              role="img"
-              aria-label="picture of Amy Beachy Head"
-            ></div>
-
-            <div class="about-text-box">
-              <p class="subheading">About Me</p>
-
-              <p class="about-me-description description">
-                Sport enthusiast with a creative side turned software geek! I
-                enjoy building beautiful, functional websites from scratch. My
-                focus is on writing clean and accessible code, regardless of the
-                framework or language. I like to build frontend projects with
-                HTML, CSS, Sass, React & JS. I am familiar with Adobe
-                Illustrator and Photoshop and love creating my own designs and
-                artworks with these tools. I love learning, solving problems,
-                painting, drawing and being outdoors in nature in my free time.
-                I am based in Cape Town, but am open to remote work. I’d love
-                you to take a look at my portfolio.
-              </p>
-
-              <a href="#" class="btn btn--outline btn--go-to"
-                >Go to portfolio
-              </a>
-            </div>
-          </div>
+        <div class="portfolio-text-box">
+          <h2 class="subheading heading-portfolio">
+            Approve your weekly meal plan:
+          </h2>
+          <p class="portfolio-description">
+            Once per week, approve the meal plan generated for you by Omnifood
+            AI. You can change ingredients, swap entire meals, or even add your
+            own recipes.
+          </p>
         </div>
-      </section>
 
-      <section class="section-contact">
-        <div class="container">
-          <div class="contact grid grid--3-cols">
-            <p class="subheading interested">
-              Interested in doing a project together?
-            </p>
-            <div class="section-separation"></div>
-            <a href="contact.html" class="btn btn--outline btn--contact"
-              >Contact me</a
-            >
-          </div>
+        <!-- PORTFOLIO 2 -->
+
+        <div class="portfolio-text-box">
+          <h2 class="subheading heading-portfolio">
+            Receive meals at convenient time:
+          </h2>
+          <p class="portfolio-description">
+            Best chefs in town will cook your selected meal every day, and we
+            will deliver it to your door whenever works best for you. You can
+            change delivery schedule and address daily!
+          </p>
         </div>
-      </section>
-    </main>
+        <div class="portfolio-img-box">
+          <img
+            src="img/app/app-screen-3.png"
+            alt="iPhone app delivery screen"
+            class="portfolio-img"
+          />
+        </div>
+
+        <!-- PORTFOLIO 3 -->
+
+        <div class="portfolio-img-box">
+          <img
+            src="img/app/app-screen-2.png"
+            alt="iPhone app approve meal screen"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-text-box">
+          <h2 class="subheading heading-portfolio">
+            Approve your weekly meal plan:
+          </h2>
+          <p class="portfolio-description">
+            Once per week, approve the meal plan generated for you by Omnifood
+            AI. You can change ingredients, swap entire meals, or even add your
+            own recipes.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="grid grid--footer">
-        <a href="#" class="img-link">
+        <a href="index.html" class="img-link">
           <img src="img/logo-footer.svg" alt="shapes" class="logo" />
         </a>
 
