@@ -43,6 +43,7 @@
     ></script>
 
     <script defer src="js/script.js"></script>
+    <script defer src="js/sticky-nav.js"></script>
 
     <title>Amy Beachy Head &mdash; Portfolio</title>
   </head>
@@ -68,8 +69,54 @@
     </header>
 
     <section class="section-portfolio" id="portfolio">
-      <div class="container grid grid--2-cols grid--center-v">
+      <div class="container grid grid--2-cols grid--portfolio">
         <!-- PORTFOLIO 1 -->
+
+        <div class="portfolio-img-box sticky-nav">
+          <img
+            src="img/omnifood.svg"
+            alt="omnifood website screen"
+            class="portfolio-img"
+          />
+        </div>
+        <div class="portfolio-text-box">
+          <h2 class="subheading heading-portfolio">Omnifood</h2>
+          <p class="portfolio-description">
+            This project required me to build a fully functional food
+            subscription website. It was built using HTML, CSS and some
+            JavaScript. I used modern CSS like Flexbox and Grid for layout
+            purposes.
+          </p>
+
+          <a
+            href="https://omnifood-abeachyhead.netlify.app/"
+            class="btn btn--outline btn--go-to"
+            >View Project</a
+          >
+        </div>
+
+        <!-- PORTFOLIO 2 -->
+
+        <div class="portfolio-text-box">
+          <h2 class="subheading heading-portfolio">Omnifood</h2>
+          <p class="portfolio-description">
+            This project required me to build a fully functional food
+            subscription website. It was built using HTML, CSS and some
+            JavaScript. I used modern CSS like Flexbox and Grid for layout
+            purposes.
+          </p>
+
+          <a href="#" class="btn btn--outline btn--go-to">View Project</a>
+        </div>
+        <div class="portfolio-img-box">
+          <img
+            src="img/omnifood.svg"
+            alt="omnifood website screen"
+            class="portfolio-img"
+          />
+        </div>
+
+        <!-- PORTFOLIO 3 -->
 
         <div class="portfolio-img-box">
           <img
@@ -79,54 +126,29 @@
           />
         </div>
         <div class="portfolio-text-box">
-          <h2 class="subheading heading-portfolio">
-            Approve your weekly meal plan:
-          </h2>
+          <h2 class="subheading heading-portfolio">Omnifood</h2>
           <p class="portfolio-description">
-            Once per week, approve the meal plan generated for you by Omnifood
-            AI. You can change ingredients, swap entire meals, or even add your
-            own recipes.
+            This project required me to build a fully functional food
+            subscription website. It was built using HTML, CSS and some
+            JavaScript. I used modern CSS like Flexbox and Grid for layout
+            purposes.
           </p>
+
+          <a href="#" class="btn btn--outline btn--go-to">View Project</a>
         </div>
+      </div>
+    </section>
 
-        <!-- PORTFOLIO 2 -->
-
-        <div class="portfolio-text-box">
-          <h2 class="subheading heading-portfolio">
-            Receive meals at convenient time:
-          </h2>
-          <p class="portfolio-description">
-            Best chefs in town will cook your selected meal every day, and we
-            will deliver it to your door whenever works best for you. You can
-            change delivery schedule and address daily!
+    <section class="section-contact">
+      <div class="container">
+        <div class="contact grid grid--3-cols">
+          <p class="subheading interested">
+            Interested in doing a project together?
           </p>
-        </div>
-        <div class="portfolio-img-box">
-          <img
-            src="img/app/app-screen-3.png"
-            alt="iPhone app delivery screen"
-            class="portfolio-img"
-          />
-        </div>
-
-        <!-- PORTFOLIO 3 -->
-
-        <div class="portfolio-img-box">
-          <img
-            src="img/app/app-screen-2.png"
-            alt="iPhone app approve meal screen"
-            class="portfolio-img"
-          />
-        </div>
-        <div class="portfolio-text-box">
-          <h2 class="subheading heading-portfolio">
-            Approve your weekly meal plan:
-          </h2>
-          <p class="portfolio-description">
-            Once per week, approve the meal plan generated for you by Omnifood
-            AI. You can change ingredients, swap entire meals, or even add your
-            own recipes.
-          </p>
+          <div class="section-separation"></div>
+          <a href="contact.html" class="btn btn--outline btn--contact"
+            >Contact me</a
+          >
         </div>
       </div>
     </section>

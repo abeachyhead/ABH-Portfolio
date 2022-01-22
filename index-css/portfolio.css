@@ -1,18 +1,32 @@
 /* ******************** */
 /* Section Portfolio */
 /* ******************** */
-
 .section-portfolio {
-  padding: 9.6rem 0;
+  margin-bottom: 9.6rem;
 }
 
 .heading-portfolio {
   font-size: 4rem;
+  margin-bottom: 2.8rem;
+}
+
+.portfolio-text-box {
+  border-top: 2px solid rgba(151, 151, 151, 0.15);
+  border-bottom: 2px solid rgba(151, 151, 151, 0.15);
+
+  width: 35rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  justify-self: center;
 }
 
 .portfolio-description {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-family: "Public Sans", serif;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
 }
 
 .portfolio-img-box {
@@ -24,5 +38,10 @@
 }
 
 .portfolio-img {
+  height: 50rem;
   width: 100%;
+}
+
+.grid--portfolio {
+  row-gap: 8rem;
 }

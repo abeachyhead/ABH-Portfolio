@@ -85,10 +85,6 @@ body {
   align-items: center;
 }
 
-.grid--center-v {
-  align-items: center;
-}
-
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;

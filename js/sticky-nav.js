@@ -1,5 +1,5 @@
 // sticky navigation
-const sectioneHeroEl = document.querySelector(".section-hero");
+const stickyNavEl = document.querySelector(".sticky-nav");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -15,4 +15,4 @@ const obs = new IntersectionObserver(
     rootMargin: "-70px",
   }
 );
-obs.observe(sectioneHeroEl);
+obs.observe(stickyNavEl);
