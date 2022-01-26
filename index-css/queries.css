@@ -235,6 +235,21 @@
   .title-cta {
     margin-bottom: 3.2rem;
   }
+
+  .portfolio-img-box:nth-child(4) {
+    grid-row: 3;
+  }
+
+  .portfolio-text-box {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    text-align: center;
+  }
+
+  .btn--go-to {
+    align-self: center;
+  }
 }
 
 /* ********************************* */
